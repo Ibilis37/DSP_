@@ -93,9 +93,9 @@ int main{
     cout <<"3.3 - RMSE of difference between fft and python_fft " << RMSE(python_fft, FFT(signal, false)) << endl;
 }
 ```
->  **3.1 - RMSE of difference between odft(dft(signal)) and signal - 2.46384e-08
-	3.1 - RMSE of differente between offt(fft(signal)) and signal - 5.89683e-16
-	3.2 - RMSE of difference between fft and dft - 3.68293e-08
+>  **3.1 - RMSE of difference between odft(dft(signal)) and signal - 2.46384e-08 \
+	3.1 - RMSE of differente between offt(fft(signal)) and signal - 5.89683e-16 \
+	3.2 - RMSE of difference between fft and dft - 3.68293e-08 \
 	3.3 - RMSE of difference between fft and python_fft 1.21502e-09**
 > 
 ### Задание 4.
