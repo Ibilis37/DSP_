@@ -93,6 +93,10 @@ int main{
     cout <<"3.3 - RMSE of difference between fft and python_fft " << RMSE(python_fft, FFT(signal, false)) << endl;
 }
 ```
+>  **3.1 - RMSE of difference between odft(dft(signal)) and signal - 2.46384e-08
+	3.1 - RMSE of differente between offt(fft(signal)) and signal - 5.89683e-16
+	3.2 - RMSE of difference between fft and dft - 3.68293e-08
+	3.3 - RMSE of difference between fft and python_fft 1.21502e-09**
 > 
 ### Задание 4.
   > Проанализировать зависимость времени выполнения БПФ и непосредственного
@@ -141,6 +145,7 @@ vector<Complex> Convolution(vector<Complex> x, vector<Complex> y) {
     return c;
 }
 ```
+> **5 - RMSE of convolution - 1.5773e-15**
 ### Задание 6. 
   > Реализовать процедуру нахождения дискретной свертки, основанную на БПФ.
   При вычислении БПФ использовать результаты п. 2 задания.
@@ -164,6 +169,7 @@ vector<Complex> FConvolution(vector<Complex> x, vector<Complex> y) {
     return u;
 }
 ```
+> **6 - RMSE of fconvolution - 7.72303**
 ### Задание 7. 
   > Убедится в корректности работы процедуры из п. 5 и п. 6 задания, сравнив
   полученные результаты с результатами работы встроенной функций MATLAB
